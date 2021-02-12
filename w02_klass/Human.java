@@ -1,0 +1,18 @@
+public class Human {
+    public int head=1;
+    public int eyes=2;
+    public int hands=2;
+    public int legs=2;
+    public int feathers=0;
+    
+    public String name = "";
+    public Human(){
+        System.out.println("Constructor");
+    }
+    public Human(String name){
+        this.name = name;
+    }
+    public static void sayHello(){
+        System.out.println("Hello");
+    }
+}
